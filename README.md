@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Dockerfiles: using a generic base image instead of a specialized one for the application. The initial `Dockerfile` uses `ubuntu:latest`, which leads to a larger image size and potential dependency conflicts. The improved `Dockerfile-fixed` uses a Python-specific base image, which is more efficient and robust.
